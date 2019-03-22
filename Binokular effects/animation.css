@@ -1,0 +1,14 @@
+@keyframes goggles-move{
+  /*from*/0%{
+    left: 0px;
+  }
+  /*to*/50%{
+    left: 500px;
+  }
+  100%{
+    left:0px;
+  }
+}
+#forest .goggles{
+  animation: goggles-move 10s infinite;
+}
